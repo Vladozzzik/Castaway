@@ -1,0 +1,121 @@
+body{
+    background-color: #191919;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika', sans-serif;
+}
+header{
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_menu{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+.header_menu li{
+    list-style: none;
+    margin-left: 40px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+.podcast{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.podcast_social_header{
+    margin-top: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+.podcast_social_header span{
+    font-size: 100px;
+    font-weight: bold;
+}
+.podcast_social_header img{
+    margin-bottom: -30px;
+}
+.social{
+    margin-top: 90px;
+}
+.social p{
+    font-size: 15px;
+}
+.episodes{
+    margin: 80px;
+}
+.episodes h1{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    margin-bottom: 66px;
+}
+.episodes3{
+    padding: 40px;
+    background: #000000;
+    border-radius: 32px;
+    display: flex;
+    margin-bottom: 60px;
+}
+.episodes3_description{
+    margin-left: 53px;
+}
+.episodes3_description h3{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background: #191919;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0px 16px 0px 16px;
+}
+.episodes3_description p{
+    margin-top: 48px;
+    color: #118DA8;
+    font-size: 17px;
+    line-height: 27px;
+}
+.episodes3_description h1{
+    margin-top: 18px;
+    margin-bottom: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 3.56px;
+}
+.episodes3_description span{
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFFB2;
+}
+.episodes3_description button{
+    margin-top: 35px;
+    background-color: #118DA8;
+    border-radius: 6px; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 27px;
+}
